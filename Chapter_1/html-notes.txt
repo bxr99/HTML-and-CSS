@@ -1,0 +1,7 @@
+The DOCTYPE declaration defines the document to be HTML
+The text between <html> and </html> tags describes an HTML document
+The text between <head> and </head> provides information about the document
+The text between <title> and </title> provides a title for the document
+The text between <body> and </body> describes the visible page content
+The text between <h1> and </h1> describes a heading
+The text between <p> and </p> describes a paragraph
