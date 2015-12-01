@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title>I/O Stuff</title>
+</head>
+<body>
+<!-- The size attribute should not be used on new forms -->
+<!-- In any new forms you write, CSS should be used to control the width -->
+<!-- When the type attribute has a value of text, it creates a single line of text input -->
+<!-- name="" is for the "hypothetical server" -->
+	<p>Username:
+		<input type="text" name="username" size="15" maxlength="30">
+	</p>
+
+<!-- When the type attribute has a value of password, the text characters are blocked out -->
+	<p>Password: 
+		<input type="password" name="password" size="15" maxlength="30">
+	</p>
+
+	<p>What do you think of this website?</p>	
+		<textarea name="comments" cols="20" rows="4">Enter your comments...</textarea>
+
+<!-- The checked attribute can be used to indicate which value (if any) should be selected when the page loads -->
+<!-- Only one radio button in a group should use this attribute -->
+	<p>Select your age bracket:</p>
+		<input type="radio" name="age" value="<18" checked="checked">Less than 18
+		<input type="radio" name="age" value="<21">Less than 21
+		<input type="radio" name="age" value=">=21">21 or older
+
+	<p>If you could only choose two sites, which two would they be?</p>
+		<input type="checkbox" name="website" value="youtube" checked="checked">Youtube
+		<input type="checkbox" name="website" value="netflix">Netflix
+		<input type="checkbox" name="website" value="reddit">Reddit
+
+</body>
+</html>
