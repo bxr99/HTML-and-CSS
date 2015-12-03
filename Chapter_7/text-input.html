@@ -1,7 +1,9 @@
 <html>
+	
 <head>
 	<title>I/O Stuff</title>
 </head>
+
 <body>
 <!-- The size attribute should not be used on new forms -->
 <!-- In any new forms you write, CSS should be used to control the width -->
@@ -52,6 +54,25 @@
 		<option value="python">Python</option>
 	</select>	
 
+<!--If you want to allow users to upload a file, you will need to use a file input box-->
+<!--type="file" creates a box, depending on the system (mac/win) it will look differently-->
+<!--When you are allowing users to upload files, the method attribute on the <form> element must
+	  have a value of post-->
+<form action="http://www.somerandomsitethatdoesntexist.com/upload" method="post">
+	<p>Upload a picture with .jpeg or .png extension</p>
+	<input type="file" name="user-picture"><br>
+	<input type="submit" value="Upload">
+</form>
+
+<p>Subscribe to our email list:</p>
+<input type="text" name="email">
+<input type="submit" name="subscribe" value="Subscribe">
+
+<br><br>
+<button>Hello</button>
+
+
 
 </body>
+
 </html>
